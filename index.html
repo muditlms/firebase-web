@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>First firebase App</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	
+</head>
+<body>
+
+<!-- real time db -->
+<!-- <p id="object"></p> -->
+
+<!-- auth for web -->
+
+<div class="login-form container">
+	<form>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="button" class="btn btn-default" id="login">Login</button>
+  <button type="button" class="btn btn-success" id="signup">Sign Up</button>
+  <button type="button" class="btn btn-danger hide" id="logout">Logout</button>
+</form>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
